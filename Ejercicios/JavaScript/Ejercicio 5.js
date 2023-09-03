@@ -28,8 +28,8 @@ function SRMD(operador) {
     if (primerNumero == null) {
         primerNumero = salida.innerText;
         primerNumero = parseInt(primerNumero);
-        salidaOperador.innerText = operador;
     }
+    salidaOperador.innerText = operador;
 }
 
 function resultado(operador) {
