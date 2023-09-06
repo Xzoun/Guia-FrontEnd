@@ -1,0 +1,53 @@
+/* ----------------------------- General ----------------------------- */
+
+.general {
+    margin: 20px;
+    padding: 20px;
+}
+
+/* ----------------------------- Enlace Atras ----------------------------- */
+
+.enlaceAtras {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.principal{
+    filter: invert(1);
+
+}
+
+.btnAtras {
+    border-radius: 8px;
+    font-size: 2ch;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    cursor: pointer;
+}
+
+.enlaceAtras:hover {
+    left: 20px;
+}
+
+.imgAtras {
+    width: 20px;
+}
+
+/* ----------------------------- Acordion ----------------------------- */
+
+.accordion-item .accordion-body {
+    background-color:rgba(13, 202, 240,0.4); 
+    color: black;
+}
+
+.accordion-item h2.accordion-header button.accordion-button {
+    background-color: rgb(20, 22, 22);
+    color: #0dcaf0; 
+}
+

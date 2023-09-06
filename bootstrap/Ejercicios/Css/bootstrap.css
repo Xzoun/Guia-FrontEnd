@@ -1,0 +1,58 @@
+/* --------------------- Boton Atras --------------------- */
+
+.imgAtras {
+    width: 20px;
+}
+
+.btnAtras:hover {
+    margin-left: 30px;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.enlaceAtras {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.principal{
+    filter: invert(1);
+}
+
+.btnAtras {
+    border-radius: 8px;
+    font-size: 2ch;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    cursor: pointer;
+}
+
+/* --------------------- Ejercicio 10 --------------------- */
+
+.card {
+    padding: 10px;
+    margin: 10px;
+}
+
+/* --------------------- Ejercicio 11 --------------------- */
+
+table {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.col1 {
+    width: 300px;
+    text-align: left;
+}
+
+tr {
+    height: 30px;
+}

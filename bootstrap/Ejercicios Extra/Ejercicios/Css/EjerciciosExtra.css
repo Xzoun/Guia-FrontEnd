@@ -1,0 +1,37 @@
+#general{
+    margin: 20px;
+    padding: 20px;
+}
+
+/* --------------------- Boton Atras --------------------- */
+
+.imgAtras {
+    width: 20px;
+}
+
+.btnAtras:hover {
+    margin-left: 30px;
+}
+
+a {
+    margin-left: 10px;
+}
+
+.enlaceAtras {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    z-index: 100;
+    filter: invert(1);
+}
+
+.btnAtras {
+    border-radius: 8px;
+    font-size: 2ch;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    cursor: pointer;
+}
