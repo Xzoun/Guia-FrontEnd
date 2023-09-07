@@ -1,13 +1,18 @@
 body::before {
     content: "";
-    background-image: url("../Imagenes/background.jpg");
-    filter: blur(8px);
+    background-image: url("../Imagenes/codigoFondo.jpg");
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     z-index: -1;
+}
+
+.fondoGeneral {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    font-weight: 600;
 }
 
 body {
@@ -21,13 +26,13 @@ body {
 
 .fixed {
     position: fixed;
-    bottom: 30px;
-    right: 30px;
+    bottom: 60px;
+    right: 60px;
 }
 
 #modulo1,
 #modulo2,
-#modulo3{
+#modulo3 {
     border: 0px;
     border-radius: 20px;
 }
@@ -36,7 +41,7 @@ body {
     border-radius: 20px;
 }
 
-.white{
+.white {
     filter: invert(1);
     margin-bottom: 5px;
 }

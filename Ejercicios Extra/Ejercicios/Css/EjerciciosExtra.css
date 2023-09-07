@@ -3,6 +3,9 @@ a:hover {
 }
 
 /* --------------------- Ejercicio 1 --------------------- */
+#body {
+    color: white;
+}
 
 .lista {
     list-style: none;
@@ -42,6 +45,10 @@ a:hover {
 
 /* --------------------- Ejercicio 2 --------------------- */
 
+#tablaE2 {
+    color: black;
+}
+
 table.ejercicioE2 th,
 table.ejercicioE2 td {
     border-collapse: collapse;
@@ -50,10 +57,6 @@ table.ejercicioE2 td {
     height: 35px;
     width: 70px;
     font-weight: 600;
-}
-
-.margin {
-    margin: 60px 20px 0px 20px;
 }
 
 table.ejercicioE2 thead th {
@@ -74,7 +77,7 @@ table.ejercicioE2 th.columna1 {
     text-align: left;
 }
 
-table.ejercicioE2 tr.yellow td{
+table.ejercicioE2 tr.yellow td {
     background-color: #FFFFCC;
 }
 
@@ -99,4 +102,10 @@ table.ejercicioE2 tr.yellow td{
 
 .marginLeft {
     margin-left: 15px;
+}
+
+/* --------------------- Ejercicio Final --------------------- */
+
+.destacado {
+    filter: invert(70%) sepia(64%) saturate(2394%) hue-rotate(146deg) brightness(96%) contrast(97%);
 }

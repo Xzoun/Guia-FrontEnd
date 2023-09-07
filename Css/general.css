@@ -1,9 +1,35 @@
 /* ----------------------------- General ----------------------------- */
+body {
+    scroll-behavior: smooth;
+}
 
 .general {
     margin: 20px;
     padding: 20px;
+    overflow-x: scroll;
 }
+
+body::-webkit-scrollbar,
+.general::-webkit-scrollbar {
+    width: 7px;
+    height: 0px;
+    margin-right: 3px;
+    background-color: #2e2e2e;
+}
+
+body:hover::-webkit-scrollbar-thumb,
+.general:hover::-webkit-scrollbar-thumb {
+    background-color: #53D1FA;
+    border-radius: 12px;
+}
+
+body::-webkit-scrollbar-thumb:hover,
+.general::-webkit-scrollbar-thumb:hover {
+    width: 7px;
+    background-color: #FAA852;
+    border-radius: 12px;
+}
+
 
 /* ----------------------------- Enlace Atras ----------------------------- */
 
@@ -18,7 +44,7 @@
     z-index: 100;
 }
 
-.principal{
+.principal {
     filter: invert(1);
 
 }
@@ -42,14 +68,13 @@
 /* ----------------------------- Acordion ----------------------------- */
 
 .accordion-item .accordion-body {
-    background-color:rgba(191, 226, 233, 0.4); 
+    background-color: rgba(191, 226, 233, 0.4);
     color: black;
     overflow: hidden;
 }
 
 .accordion-item h2.accordion-header button.accordion-button {
     background-color: rgb(20, 22, 22);
-    color: #0dcaf0; 
+    color: #0dcaf0;
     overflow: hidden;
 }
-
