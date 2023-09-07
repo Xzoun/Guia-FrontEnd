@@ -1,0 +1,87 @@
+a:hover {
+    text-decoration: none;
+}
+
+/* --------------------- Ejercicio 1 --------------------- */
+
+.lista {
+    list-style: none;
+    padding: 5px 10px;
+    font-size: 3ch;
+    cursor: pointer;
+}
+
+.ejercicio1 {
+    color: violet;
+}
+
+#azul:hover {
+    color: #0051ff;
+    cursor: pointer;
+}
+
+#negro:hover {
+    color: grey;
+}
+
+#verde:hover {
+    color: rgba(42, 209, 1, 0.829);
+}
+
+#rojo:hover {
+    color: red;
+}
+
+#amarillo:hover {
+    color: gold;
+}
+
+#cian:hover {
+    color: rgb(63, 194, 255);
+}
+
+/* --------------------- Ejercicio 2 --------------------- */
+
+table.ejercicioE2 th,
+table.ejercicioE2 td {
+    border-collapse: collapse;
+    border: solid #333 1px;
+    text-align: center;
+    height: 35px;
+    width: 70px;
+    font-weight: 600;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 2%;
+    width: 98%;
+}
+
+.contenedor {
+    margin-top: 20px;
+}
+
+.margin {
+    margin: 60px 20px 0px 20px;
+}
+
+table.ejercicioE2 thead th {
+    background-color: #e7e7e7;
+}
+
+table.ejercicioE2 th {
+    background-color: #E6F3FF;
+    font-weight: 1000;
+}
+
+table.ejercicioE2 th.columna1 {
+    width: 120px;
+    text-align: left;
+}
+
+table.ejercicioE2 tr.fila1 td,
+table.ejercicioE2 tr.fila3 td {
+    background-color: #FFFFCC;
+}

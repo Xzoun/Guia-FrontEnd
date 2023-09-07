@@ -18,15 +18,19 @@
             ingresa alguno de esos dos caracteres se deberá de imprimir un mensaje por pantalla
             que diga “CORRECTO”, en caso contrario, se deberá imprimir “INCORRECTO”.</p>
         <h3 id="salida"></h3>
-        <label class="w-75 form-label" for="adivina">Puedes adivinarlo? S/N</label>
-        <input class="w-75 form-control" type="string" id="adivina" name="adivina">
+        <div id="sn">
+            <label class="w-75 form-label" for="adivina">Puedes adivinarlo? S/N</label>
+            <input class="w-75 form-control" type="string" id="adivina" name="adivina">
+        </div>
+        <br>
+        <label class="w-75 form-label" for="solucion" id="correcto">Ingrese su respuesta</label>
         <div id="respuesta">
-            <label class="w-75 form-label" for="solucion">Ingrese su respuesta</label>
             <input class="w-75 form-control" type="string" id="solucion" name="solucion">
             <button class="btn btn-outline-secondary" id="verificar">Verificar</button>
         </div>
-        <button class="btn btn-outline-secondary" id="otro">Buscar otro</button>
 
+        <button class="btn btn-outline-secondary" id="otro">Buscar otro</button>
+        <div id="bulto"></div>
     </div>
     <a class="enlaceAtras" href="../JavaScript.html"> <button class="btn ejercicio btnAtras"><img class="imgAtras"
                 src="./Imagenes/Izquierda.png" alt="">Volver</button></a>

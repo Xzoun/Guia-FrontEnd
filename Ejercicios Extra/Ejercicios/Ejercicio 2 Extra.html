@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>Guia FrontEnd - Bootstrap</title>
+    <link rel="stylesheet" href="../../Css/general.css">
+    <link rel="stylesheet" href="./Css/EjerciciosExtra.css">
+</head>
+
+<body>
+
+    <div class="general">
+      
+        <nav class="fixed navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand nav-link" href="Ejercicio 3.html">Landing Page</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true" href="#">Tabla <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../HTML/Ejercicios/Ejercicio 6.html">Formulario</a>
+                    </li>
+            </div>
+        </nav>
+
+        <div class="general contendor">
+            <h1>Ejercicio Extra 2</h1>
+            <p>Determinar las reglas CSS necesarias para mostrar la siguiente tabla con el aspecto final
+                mostrado en la imagen (modificar el código HTML que se considere necesario añadiendo
+                los atributos class oportunos).</p>
+            <p>Tabla original:</p>
+            <img src="./Imagenes/Ejercicio Extra 2 Enunciado.png" alt="Tabla ejemplo enunciado Ej Extra 2">
+            <p></p>
+            <p>Tabla final:</p>
+            <img src="./Imagenes/Ejercicio Extra 2 Enunciado B.png" alt="Tabla ejemplo enunciado Ej Extra 2">
+
+            <div class="general">
+                <p>Pasos a realizar:</p>
+                <p>1. Alinear el texto de las celdas, cabeceras y título. Definir los bordes de la tabla,
+                    celdas y cabeceras (color gris oscuro #333).</p>
+                <img src="./Imagenes/Ejercicio Extra 2 Enunciado.png" alt="Tabla ejemplo enunciado Ej Extra 2">
+                <p></p>
+                <p>2. Formatear las cabeceras de fila y columna con la imagen de fondo correspondiente en
+                    cada caso (fondo_gris.gif, euro.png, dolar.png, yen.png, libra.png). Modificar el tipo
+                    de letra de la tabla y utilizar Arial. El color azul claro es #E6F3FF.</p>
+                <img src="./Imagenes/Ejercicio Extra 2 Enunciado B.png" alt="Tabla ejemplo enunciado Ej Extra 2">
+                <p></p>
+                <p>3. Mostrar un color alterno en las filas de datos (color amarillo claro #FFFFCC).</p>
+                <img src="./Imagenes/Ejercicio Extra 2 Enunciado Final.png" alt="Tabla ejemplo enunciado Ej Extra 2">
+                <div class="general">
+                    <table class="ejercicioE2">
+                        <thead>
+                            <tr>
+                                <th>Cambio</th>
+                                <th>Compra</th>
+                                <th>Venta</th>
+                                <th>Maximo</th>
+                                <th>Minimo</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="fila1">
+                                <th class="columna1"><img src="./Imagenes/Euro.png" alt="Signo Euro">Euro/Dolar</th>
+                                <td>1.2524</td>
+                                <td>1.2527</td>
+                                <td>1.2539</td>
+                                <td>1.2488</td>
+                            </tr>
+                            <tr>
+                                <th class="columna1"><img src="./Imagenes/Dollar.png" alt="Signo Yen">Dolar/Yen</th>
+                                <td>119.01</td>
+                                <td>119.05</td>
+                                <td>119.82</td>
+                                <td>119.82</td>
+                            </tr>
+                            <tr class="fila3">
+                                <th class="columna1"><img src="./Imagenes/Libra.png" alt="Signo Libra">Libra/Dolar</th>
+                                <td>1.8606</td>
+                                <td>1.8611</td>
+                                <td>1.8651</td>
+                                <td>1.8522</td>
+                            </tr>
+                            <tr>
+                                <th class="columna1"><img src="./Imagenes/Yen.png" alt="Signo Yen">Yen/Euro</th>
+                                <td>0.6711</td>
+                                <td>0.6705</td>
+                                <td>0.6676</td>
+                                <td>0.6713</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <a class="enlaceAtras" href="../ejerciciosExtra.html"> <button class="btn ejercicio btnAtras"><img
+                    class="imgAtras" src="./Imagenes/Izquierda.png" alt="flechaAtras">Volver</button></a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -35,8 +35,17 @@ h3 {
 }
 
 /*----------------- Ejercicio 4 -------------------*/
-#otro {
+#otro,
+#correcto {
     display: none;
+}
+
+#bulto {
+    height: 50px;
+}
+
+#verificar,#otro{
+    margin-left: 600px;
 }
 
 /*----------------- Ejercicio 5 -------------------*/

@@ -1,7 +1,7 @@
 export function selectorAdivinanza(posicion) {
 
     let adivinanzas = ["Blanco por dentro, verde por fuera, si quieres que te lo diga, espera.",
-        "Larga como una serpiente, pero no es una criatura, guarda tesoros y secretos, en un libro se encuentra su escritura.",
+        "En mis hojas encuentras la sabiduría, sin abrirme, es un misterio mi valía. Puedo transportarte a lugares lejanos,sin moverte, explorarás mundos humanos.",
         "Tengo llaves pero no abro puertas, tengo espacio pero no tengo habitaciones.",
         "Siempre sube, pero nunca baja.",
         "Delante de ti siempre, detrás de ti nunca.",
@@ -44,7 +44,7 @@ export function selectorSolucion(posicion) {
         "mesa",
         "pañuelo",
         "observatorio"
-      ];
+    ];
     return soluciones[posicion];
 }
 
