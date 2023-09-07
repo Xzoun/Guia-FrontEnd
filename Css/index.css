@@ -24,9 +24,19 @@ body {
     bottom: 30px;
     right: 30px;
 }
-.hover{
-    border-radius: 50px;   
+
+#modulo1,
+#modulo2,
+#modulo3{
+    border: 0px;
+    border-radius: 20px;
 }
-.hover:hover{
-    background-color: rgb(0, 0, 0);
+
+.btn {
+    border-radius: 20px;
+}
+
+.white{
+    filter: invert(1);
+    margin-bottom: 5px;
 }

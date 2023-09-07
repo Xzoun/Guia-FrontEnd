@@ -52,17 +52,6 @@ table.ejercicioE2 td {
     font-weight: 600;
 }
 
-.fixed {
-    position: fixed;
-    top: 0;
-    left: 2%;
-    width: 98%;
-}
-
-.contenedor {
-    margin-top: 20px;
-}
-
 .margin {
     margin: 60px 20px 0px 20px;
 }
@@ -71,17 +60,43 @@ table.ejercicioE2 thead th {
     background-color: #e7e7e7;
 }
 
+.whiteBG {
+    background-color: white;
+}
+
 table.ejercicioE2 th {
     background-color: #E6F3FF;
     font-weight: 1000;
 }
 
 table.ejercicioE2 th.columna1 {
-    width: 120px;
+    min-width: 120px;
     text-align: left;
 }
 
-table.ejercicioE2 tr.fila1 td,
-table.ejercicioE2 tr.fila3 td {
+table.ejercicioE2 tr.yellow td{
     background-color: #FFFFCC;
+}
+
+/* --------------------- Ejercicio 3 --------------------- */
+
+.white {
+    color: white;
+}
+
+.white:hover {
+    color: rgb(63, 194, 255);
+}
+
+.grey {
+    color: grey;
+}
+
+.grey:hover {
+    color: grey;
+    cursor: default;
+}
+
+.marginLeft {
+    margin-left: 15px;
 }

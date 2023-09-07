@@ -44,10 +44,12 @@
 .accordion-item .accordion-body {
     background-color:rgba(191, 226, 233, 0.4); 
     color: black;
+    overflow: hidden;
 }
 
 .accordion-item h2.accordion-header button.accordion-button {
     background-color: rgb(20, 22, 22);
     color: #0dcaf0; 
+    overflow: hidden;
 }
 
