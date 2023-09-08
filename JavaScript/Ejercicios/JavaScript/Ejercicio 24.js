@@ -2,8 +2,8 @@ const canvas = document.getElementById("canvas"),
     ctx = canvas.getContext("2d"),
     resolverBtn = document.getElementById("resolver"),
     diametro = document.getElementById("diametro"),
-    outPut = document.getElementById("salida");
-
+    outPut = document.getElementById("salida"),
+    container = document.getElementById("canvasCont");
 
 resolverBtn.addEventListener("click", () => {
 
@@ -16,7 +16,7 @@ resolverBtn.addEventListener("click", () => {
         let radio = diametro.value / 2;
 
         ctx.beginPath();
-        ctx.arc(500, radio, radio, 0, 2 * Math.PI);
+        ctx.arc(container.clientWidth/2, radio, radio, 0, 2 * Math.PI);
         ctx.fillStyle = "#F5B041";
 
         ctx.fill();
@@ -34,3 +34,11 @@ function limpiarCanvas() {
     ctx.closePath();
 }
 
+function ajustarCanvas() {
+    canvas.width = container.clientWidth;
+    canvas.height = 1000;
+
+}
+
+ajustarCanvas();
+window.addEventListener('resize', ajustarCanvas);

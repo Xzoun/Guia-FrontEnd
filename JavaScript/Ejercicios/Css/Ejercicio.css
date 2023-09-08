@@ -55,6 +55,7 @@ h3 {
     align-items: center;
     justify-content: center;
     gap: 40px;
+    max-width: 100%;
 }
 
 #numeros {
@@ -115,4 +116,49 @@ h3 {
 
 .Filter {
     filter: invert(1);
+}
+
+/*----------------- Ejercicio 24 -------------------*/
+
+#canvasCont {
+    width: 100%;
+    max-width: 1000px;
+}
+
+#canvas {
+    width: 100%;
+    height: 100%;
+}
+
+/*----------------- Responsive -------------------*/
+
+@media (max-width:768px) {
+
+    /*----------------- Ejercicio 5 -------------------*/
+    #botones {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        max-width: 100%;
+    }
+
+    #numeros {
+        grid-template-columns: repeat(3, 50%);
+        grid-template-rows: repeat(3, 75px);
+
+    }
+
+    #operaciones {
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: repeat(2, 75px);
+
+    }
+
+    #extra {
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: repeat(1, 75px);
+
+    }
+
+
 }
