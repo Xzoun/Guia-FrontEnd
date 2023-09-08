@@ -12,22 +12,23 @@
 </head>
 
 <body>
-    <div class="ejercicio">
+    <div class="general">
         <h1>Ejercicio 24</h1>
-        <p>Escribir un programa de JavaScript que a través de un formulario calcule el radio de un
+        <p class="separador">Escribir un programa de JavaScript que a través de un formulario calcule el radio de un
             circulo y lo muestre en el HTML.</p>
+        <div class="general">
+            <label class="w-75 form-label" for="diametro">Ingrese el diametro del circulo</label>
+            <input class="w-75 form-control" id="diametro" type="text" name="diametro">
 
-        <label class="w-75 form-label" for="diametro">Ingrese el diametro del circulo</label>
-        <input class="w-75 form-control" id="diametro" type="text" name="diametro">
-       
-        <button id="resolver" class="btn btn-outline-secondary">calcular</button>
-        <h3 id="salida"></h3>
-        <canvas id="canvas" width="1000" height="1000"></canvas>
+            <button id="resolver" class="btn btn-outline-secondary">calcular</button>
+            <h3 id="salida"></h3>
+            <canvas id="canvas" width="1000" height="1000"></canvas>
 
+        </div>
+        <a id="enlaceAtras" class="enlaceAtras" href="../JavaScript.html"> <button id="atrasBtn"
+                class="btn ejercicio btnAtras"><img id="flechaAtras" class="imgAtras" src="./Imagenes/Izquierda.png"
+                    alt="">Volver</button></a>
     </div>
-    <a id="enlaceAtras" class="enlaceAtras" href="../JavaScript.html"> <button id="atrasBtn"
-            class="btn ejercicio btnAtras"><img id="flechaAtras" class="imgAtras" src="./Imagenes/Izquierda.png"
-                alt="">Volver</button></a>
     <script src="./JavaScript/Ejercicio 24.js"></script>
 </body>
 

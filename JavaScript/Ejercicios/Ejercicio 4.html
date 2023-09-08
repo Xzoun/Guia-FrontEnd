@@ -12,28 +12,30 @@
 </head>
 
 <body>
-    <div class="ejercicio">
+    <div class="general">
         <h1>Ejercicio 4</h1>
-        <p>Realiza un programa que sólo permita introducir los caracteres ‘S’ y ‘N’. Si el usuario
+        <p class="separador">Realiza un programa que sólo permita introducir los caracteres ‘S’ y ‘N’. Si el usuario
             ingresa alguno de esos dos caracteres se deberá de imprimir un mensaje por pantalla
             que diga “CORRECTO”, en caso contrario, se deberá imprimir “INCORRECTO”.</p>
-        <h3 id="salida"></h3>
-        <div id="sn">
-            <label class="w-75 form-label" for="adivina">Puedes adivinarlo? S/N</label>
-            <input class="w-75 form-control" type="string" id="adivina" name="adivina">
-        </div>
-        <br>
-        <label class="w-75 form-label" for="solucion" id="correcto">Ingrese su respuesta</label>
-        <div id="respuesta">
-            <input class="w-75 form-control" type="string" id="solucion" name="solucion">
-            <button class="btn btn-outline-secondary" id="verificar">Verificar</button>
-        </div>
+        <div class="general">
+            <h3 id="salida"></h3>
+            <div id="sn">
+                <label class="w-75 form-label" for="adivina">Puedes adivinarlo? S/N</label>
+                <input class="w-75 form-control" type="string" id="adivina" name="adivina">
+            </div>
+            <br>
+            <label class="w-75 form-label" for="solucion" id="correcto">Ingrese su respuesta</label>
+            <div id="respuesta">
+                <input class="w-75 form-control" type="string" id="solucion" name="solucion">
+                <button class="btn btn-outline-secondary" id="verificar">Verificar</button>
+            </div>
 
-        <button class="btn btn-outline-secondary" id="otro">Buscar otro</button>
-        <div id="bulto"></div>
+            <button class="btn btn-outline-secondary" id="otro">Buscar otro</button>
+            <div id="bulto"></div>
+        </div>
+        <a class="enlaceAtras" href="../JavaScript.html"> <button class="btn ejercicio btnAtras"><img class="imgAtras"
+                    src="./Imagenes/Izquierda.png" alt="">Volver</button></a>
     </div>
-    <a class="enlaceAtras" href="../JavaScript.html"> <button class="btn ejercicio btnAtras"><img class="imgAtras"
-                src="./Imagenes/Izquierda.png" alt="">Volver</button></a>
     <script type="module" src="./JavaScript/Ejercicio 4.js"></script>
 </body>
 

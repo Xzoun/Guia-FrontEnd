@@ -12,28 +12,30 @@
 </head>
 
 <body>
-    <div class="ejercicio">
+    <div class="general">
         <h1>Ejercicio 7</h1>
-        <p>Escriba un programa en el cual se ingrese un valor límite positivo, y a continuación
+        <p class="separador">Escriba un programa en el cual se ingrese un valor límite positivo, y a continuación
             solicite números al usuario hasta que la suma de los números introducidos supere el
             límite inicial.</p>
-        <div id="display">
-            <label class="w-75 form-label" for="limite">Ingrese un valor limite</label>
-            <input class="w-75 form-control" type="number" id="limite" name="limite">
-            <button class="btn btn-outline-secondary" id="iniciar">Iniciar</button>
-        </div>
-        <h3 id="limiteOutPut"></h3>
-        <div id="respuesta">
-            <label class="w-75 form-label" for="sumando" id="ingreseOtro">Bien, ahora ingrese un número</label>
-            <input class="w-75 form-control" type="number" id="sumando" name="sumando">
-            <button class="btn btn-outline-secondary" id="verificar">Verificar</button>
-        </div>
+        <div class="general">
+            <div id="display">
+                <label class="w-75 form-label" for="limite">Ingrese un valor limite</label>
+                <input class="w-75 form-control" type="number" id="limite" name="limite">
+                <button class="btn btn-outline-secondary" id="iniciar">Iniciar</button>
+            </div>
+            <h3 id="limiteOutPut"></h3>
+            <div id="respuesta">
+                <label class="w-75 form-label" for="sumando" id="ingreseOtro">Bien, ahora ingrese un número</label>
+                <input class="w-75 form-control" type="number" id="sumando" name="sumando">
+                <button class="btn btn-outline-secondary" id="verificar">Verificar</button>
+            </div>
 
-        <h3 id="salida"></h3>
-        <button class="btn btn-outline-secondary" id="otro">Reiniciar</button>
+            <h3 id="salida"></h3>
+            <button class="btn btn-outline-secondary" id="otro">Reiniciar</button>
+        </div>
+        <a class="enlaceAtras" href="../JavaScript.html"> <button class="btn ejercicio btnAtras"><img class="imgAtras"
+                    src="./Imagenes/Izquierda.png" alt="">Volver</button></a>
     </div>
-    <a class="enlaceAtras" href="../JavaScript.html"> <button class="btn ejercicio btnAtras"><img class="imgAtras"
-                src="./Imagenes/Izquierda.png" alt="">Volver</button></a>
     <script src="./JavaScript/Ejercicio 7.js"></script>
 </body>
 

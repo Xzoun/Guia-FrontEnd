@@ -12,27 +12,30 @@
 </head>
 
 <body>
-    <div id="formulario" class="ejercicio">
+    <div id="formulario" class="general">
         <h1>Ejercicio 14</h1>
         <p>Crear un objeto libro que contenga las siguientes propiedades: ISBN, Título, Autor,
             Número de páginas.</p>
-        <p> Crear un método para cargar un libro pidiendo los datos al usuario y luego informar mediante otro método el
+        <p class="separador"> Crear un método para cargar un libro pidiendo los datos al usuario y luego informar
+            mediante otro método el
             número de ISBN, el título, el autor del libro y el numero de páginas</p>
-        <label class="w-75 form-label" for="isbn">ISBN</label>
-        <input class="w-75 form-control" id="isbn" type="number" name="isbn">
-        <label class="w-75 form-label" for="titulo">Título</label>
-        <input class="w-75 form-control" id="titulo" type="text" name="titulo">
-        <label class="w-75 form-label" for="autor">Autor</label>
-        <input class="w-75 form-control" id="autor" type="text" name="autor">
-        <label class="w-75 form-label" for="pagina">Número de Paginas</label>
-        <input class="w-75 form-control" id="pagina" type="number" name="pagina">
+        <div class="general">
+            <label class="w-75 form-label" for="isbn">ISBN</label>
+            <input class="w-75 form-control" id="isbn" type="number" name="isbn">
+            <label class="w-75 form-label" for="titulo">Título</label>
+            <input class="w-75 form-control" id="titulo" type="text" name="titulo">
+            <label class="w-75 form-label" for="autor">Autor</label>
+            <input class="w-75 form-control" id="autor" type="text" name="autor">
+            <label class="w-75 form-label" for="pagina">Número de Paginas</label>
+            <input class="w-75 form-control" id="pagina" type="number" name="pagina">
 
-        <button id="cargar" class="btn btn-outline-secondary">Cargar</button>
+            <button id="cargar" class="btn btn-outline-secondary">Cargar</button>
 
-        <h3 id="salida"></h3>
+            <h3 id="salida"></h3>
+        </div>
+        <a class="enlaceAtras" href="../JavaScript.html"> <button class="btn ejercicio btnAtras"><img class="imgAtras"
+                    src="./Imagenes/Izquierda.png" alt="">Volver</button></a>
     </div>
-    <a class="enlaceAtras" href="../JavaScript.html"> <button class="btn ejercicio btnAtras"><img class="imgAtras"
-        src="./Imagenes/Izquierda.png" alt="">Volver</button></a>
     <script src="./JavaScript/Ejercicio 14.js"></script>
 </body>
 
