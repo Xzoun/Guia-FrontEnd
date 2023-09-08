@@ -180,4 +180,10 @@ div.cuerpoBodyCont img {
     .divGeneral {
         border-radius: 10px;
     }
+
+    .productosCont {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2%;
+    }
 }
