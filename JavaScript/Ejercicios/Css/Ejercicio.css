@@ -44,8 +44,9 @@ h3 {
     height: 50px;
 }
 
-#verificar,#otro{
-    margin-left: 600px;
+#verificar,
+#otro {
+    margin-left: 60%;
 }
 
 /*----------------- Ejercicio 5 -------------------*/
