@@ -5,11 +5,33 @@ const canvas = document.getElementById("canvas"),
     valorHTML = document.getElementById("valor"),
     outPut = document.getElementById("salida"),
     container = document.getElementById("canvasCont"),
-    pi = Math.PI;;
+    pi = Math.PI,
+    datoOutPut = document.getElementById("datoOutPut");
+
+let dato = "";
+datoHTML.addEventListener("click", () => {
+    dato = datoHTML.value;
+    switch (dato) {
+        case "area":
+            datoOutPut.innerText = "Ingrese el área del circulo";
+            break;
+        case "perimetro":
+            datoOutPut.innerText = "Ingrese el perímetro del circulo";
+            break;
+        case "diametro":
+            datoOutPut.innerText = "Ingrese el diámetro del circulo";
+            break;
+        case "radio":
+            datoOutPut.innerText = "Ingrese el radio del circulo";
+            break;
+        default:
+            datoOutPut.innerText = " ";  
+            break;
+    }
+})
 
 resolverBtn.addEventListener("click", () => {
-    let dato = datoHTML.value,
-        valor = valorHTML.value,
+    let valor = valorHTML.value,
         verdadero = true,
         falso = false,
         radio = 0,
@@ -18,11 +40,11 @@ resolverBtn.addEventListener("click", () => {
 
     switch (dato) {
         case "area":
-            radio = Math.sqrt(valor / Math.PI);
+            radio = Math.sqrt(valor / pi);
             falso = false;
             break;
         case "perimetro":
-            radio = valor / (2 * Math.PI);
+            radio = valor / (2 * pi);
             falso = false;
             break;
         case "diametro":
