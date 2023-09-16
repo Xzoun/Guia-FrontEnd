@@ -23,8 +23,10 @@ function App() {
           </ul>
           <img src={Ejercicio1Enunciado} alt="Enunciado Ejercicio 1" />
           <div className="general">
-            <Ejercicio1 />
+            <Ejercicio1 />            
           </div>
+          <a class="enlaceAtras" href="../JavaScript.html"> <button class="btn ejercicio btnAtras"><img class="imgAtras"
+                    src="./Imagenes/Izquierda.png" alt="flecha izquierda">Volver</button></a>
         </div>
       </header>
     </div>
