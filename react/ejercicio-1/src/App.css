@@ -8,6 +8,37 @@
   font-size: 1rem;
 }
 
+.enlaceAtras {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.principal {
+  filter: invert(1);
+}
+
+.btnAtras {
+  border-radius: 8px;
+  font-size: 2ch;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  cursor: pointer;
+}
+
+.enlaceAtras:hover {
+  left: 20px;
+}
+
+.imgAtras {
+  width: 20px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

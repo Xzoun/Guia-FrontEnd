@@ -25,8 +25,8 @@ function App() {
           <div className="general">
             <Ejercicio1 />            
           </div>
-          <a class="enlaceAtras" href="../JavaScript.html"> <button class="btn ejercicio btnAtras"><img class="imgAtras"
-                    src="./Imagenes/Izquierda.png" alt="flecha izquierda">Volver</button></a>
+          <a className="enlaceAtras principal" href="../JavaScript.html"> <button class="btn ejercicio btnAtras"><img class="imgAtras"
+                    src="./Imagenes/Izquierda.png" alt="flecha izquierda"/>Volver</button></a>
         </div>
       </header>
     </div>
