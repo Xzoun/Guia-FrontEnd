@@ -39,7 +39,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://https://xzoun.github.io/Guia-FrontEnd/react-guia",
+  "homepage": "https://xzoun.github.io/Guia-FrontEnd/react-guia",
   "devDependencies": {
     "gh-pages": "^6.0.0"
   }
