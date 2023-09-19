@@ -26,6 +26,14 @@ body {
     border-radius: 20px;
 }
 
+.modulos {
+    display: none;
+}
+
+.tecs {
+    display: block;
+}
+
 .btn {
     border-radius: 20px;
 }
@@ -33,6 +41,10 @@ body {
 .destacado {
     filter: invert(70%) sepia(64%) saturate(2394%) hue-rotate(146deg) brightness(96%) contrast(97%);
     margin-bottom: 5px;
+}
+
+div.margin{
+    margin-bottom: 50px;
 }
 
 @media (max-width: 768px) {
@@ -48,4 +60,37 @@ body {
         bottom: 10px;
         right: 10px;
     }
+
+    .navbarDisplay .barraLi {
+        display: none;
+    }
+
+    ul.navbarDisplay {
+        position: fixed;
+        top: 0;
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        width: 100%;
+        left: 0;
+        overflow-y: scroll;
+        z-index: 100;
+    }
+
+    .modulos {
+        display: block;
+    }
+
+    .tecs {
+        display: none;
+    }
+
+    div.general .padding {
+        padding-top: 40px;
+    }
+
+    div.padding {
+        margin-top: 40px;
+    }
+
 }
